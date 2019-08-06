@@ -1,0 +1,20 @@
+version: '3.1'
+
+services:
+  spring-boot:
+   build:
+     context: .
+     dockerfile: Dockerfile
+   depends_on:
+     - postgres
+   ports:
+     - 8080:8080
+
+  postgres:
+    image: postgres:latest
+    environment:
+      - POSTGRES_PASSWORD=test
+      - POSTGRES_USER=test
+      - POSTGRES_DB=testdb
+    ports:
+      - "5432:5432"
