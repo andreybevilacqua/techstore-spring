@@ -1,7 +1,7 @@
 # TechStore
 This application runs with:
-- Java 8
-- Spring Boot 2.1.6.RELEASE
+- Java 11
+- Spring Boot 2.7.4
 - Spring Data JPA
 - Postgres
 - Lombok 1.18.8

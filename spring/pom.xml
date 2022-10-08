@@ -12,7 +12,7 @@
 
 	<groupId>com.abevilacqua</groupId>
 	<artifactId>techstore</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0</version>
 	<name>techstore</name>
 	<description>Technology Store made with Spring Boot</description>
 
