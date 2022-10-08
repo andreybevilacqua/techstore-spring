@@ -3,7 +3,7 @@ This application runs with:
 - Java 8
 - Spring Boot 2.1.6.RELEASE
 - Spring Data JPA
-- PostgreSQL
+- Postgres
 - Lombok 1.18.8
 - H2 Database during Maven test scope
 - Junit 5
